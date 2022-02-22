@@ -10,4 +10,4 @@ jobs:
         uses: calyptia/fluent-linter-action@main
         with:
           calyptia-api-key: ${{ secrets.CALYPTIA_API_KEY }}
-          config-location-glob: '*.conf'
+          config-location-glob: 'config/*.conf'
