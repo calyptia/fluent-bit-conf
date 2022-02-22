@@ -10,5 +10,4 @@ jobs:
         uses: calyptia/fluent-linter-action@main
         with:
           calyptia-api-key: ${{ secrets.CALYPTIA_API_KEY }}
-          follow-symbolic-links: 'true' # this is optional. It defaults to false.
           config-location-glob: 'fluent-bit.conf'
