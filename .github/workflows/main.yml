@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - id: fluent_linter_action
-        uses: calyptia/fluent-linter-action@main
+        uses: calyptia/fluent-linter-action@gg/making-problem-matcher-broeader
         with:
           calyptia-api-key: ${{ secrets.CALYPTIA_API_KEY }}
           config-location-glob: 'config/*.conf'
